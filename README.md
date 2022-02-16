@@ -12,6 +12,11 @@ This will update what you have to match with the master/main branch that is on g
 
 When you want to start working on your own shtuff you'll want to create a new branch or switch to one that you've already created and are working on.
 
+See what branch your in + more info:
+```terminal
+git status
+```
+
 See all branches:
 ```terminal
 git branch
@@ -56,5 +61,15 @@ When you clicky click the green button to compare and pull request you'll be tak
 <div align='center'>
         [<img src="https://i.stack.imgur.com/IhCVN.png">](Click to see possibly larger image)
 </div>
+
+Again, in a perfect world when you visit the pull request page you'll see another green button that says "This branch has no conflicts with the main branch"
+
+If/when that's the case, mash that "Merge Pull Request" button and someone from your team will need to look at your code and either accept or reject your desire to merge your branch with the main/master branch.
+
+---
+
+Because you'll never run into problems ever becase reasons, head back to your project terminal and switch back to the main branch with ```git checkout main``` or ```git checkout master``` if your main branch is called master for some reason.
+
+Once a teammate has reviewed and green-buttoned your merge, you should be able to ```git pull origin main``` and your new code will magically appear. I'm not a git pro so if your team has accepted your pull request and if you don't see your new code by running ```git pull``` or ```git pull origin main```, you might need to manually merge your branch with main by running ```git status``` just to make sure you're in the correct branch (should be main) then ```git branch``` to double-check you know the name of the branch you want to merge with main, then ```git merge branch-name-you-want-to-merge-into-main```
 
 
