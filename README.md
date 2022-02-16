@@ -50,6 +50,11 @@ After you've written some code that you want to push to your branch, you can do 
 
 OK so now, in a perfect world, your new code has been committed and pushed to github.com and is inside a branch that you created. When you want to merge your branch with the master/main so that your team can pull your new code, go to the project repository on github.com (there are a few ways to do this but I think this is the most straightforward/visual way) and there should be a new pull request that'll look like this (notice the yellow bar that has a green button that reads: "Compare and Pull Request":<br>
 <div align='center'>
-        [<img src="https://opensource.com/sites/default/files/uploads/compare-and-pull-request-button.png">](https://opensource.com/sites/default/files/uploads/compare-and-pull-request-button.png)
+        [<img src="https://opensource.com/sites/default/files/uploads/compare-and-pull-request-button.png">](Click to see possibly larger image)
 </div>
+When you clicky click the green button to compare and pull request you'll be taken to another page where you will make the pull request, it looks like this:<br>
+<div align='center'>
+        [<img src="https://i.stack.imgur.com/IhCVN.png">](Click to see possibly larger image)
+</div>
+
 
