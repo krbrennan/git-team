@@ -1,4 +1,4 @@
-# git-team
+# git-shit
 
 ---
 
@@ -6,7 +6,7 @@ Before you do any work, run
 ```terminal
 git pull
 ```
-This will update what you have to match with the master/main branch that is on github
+This will update what you have to match with the master/main branch that is on github. As long as you're making sure that you're only working on code in your own branch, there shouldn't be any issues with merging. If you made a booboo and worked on code in the main/master branch, there's a chance that when you do a ```git pull``` some of your code will be overwritten
 
 ---
 
@@ -17,7 +17,7 @@ See all branches:
 git branch
 ```
 
-See all remote branches:
+See all remote (remote meaning branches that everyone on the team has made) branches:
 ```terminal
 git branch -r
 ```
