@@ -43,6 +43,6 @@ After you've written some code that you want to push to your branch, you can do 
     Say you wrote something in a file, random.js, and also something you're really working on in coolThing.js. If you want to commit just coolThing.js, you can run:<br>
     ```git add path/to/coolthing.js```<br>
     ```git commit -m "descriptive message about what you're committing"```<br>
-    ```git status``` to make sure that the code you want to commit is now [Red](#).<br>
+    ```git status``` to make sure that the code you want to commit is now [Red].<br>
     ```git push origin your-branch-name```<br>
 
