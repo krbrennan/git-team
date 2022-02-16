@@ -17,12 +17,12 @@ See all branches:
 git branch
 ```
 
-See all remote (remote meaning branches that everyone on the team has made) branches:
+See all remote branches (remote meaning branches that everyone on the team has made):
 ```terminal
 git branch -r
 ```
 
-create a new branch:
+create a new branch and switch into it:
 ```terminal
 git checkout -b whatever-you-want-to-call-your-branch
 ```
@@ -31,3 +31,5 @@ swich to a branch
 ```terminal
 git checkout whatever-the-branch-name-is
 ```
+
+### before and after most everything I do, I run ```git status``` just to make sure im in the branch that I want and to see if I have any new code that I forgot to push or something. Code that hasn't been commited will be green when you run ```git status```
