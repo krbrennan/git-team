@@ -49,7 +49,7 @@ After you've written some code that you want to push to your branch, you can do 
     ```git status``` to see what the name of your branch is<br>
     ```git add path/to/coolthing.js```<br>
     ```git commit -m "descriptive message about what you're committing"```<br>
-    ```git status``` to make sure that the code you want to commit is now [Red].<br>
+    ```git status``` to make sure that the code you want to commit is now [Green].<br>
     ```git push origin your-branch-name```<br>
     
 ---
