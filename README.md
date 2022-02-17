@@ -46,6 +46,7 @@ After you've written some code that you want to push to your branch, you can do 
 1. Run ```git status``` to see what files you've written code to have changed (they'll be red). It might be the case that you don't want to push everything up--maybe you were testing something out in some file in addition to writing code that you want to commit in a differnt file and maybe you don't want to push that testing code.
 
     Say you wrote something in a file, random.js, and also something you're really working on in coolThing.js. If you want to commit just coolThing.js, you can run:<br>
+    ```git status``` to see what the name of your branch is<br>
     ```git add path/to/coolthing.js```<br>
     ```git commit -m "descriptive message about what you're committing"```<br>
     ```git status``` to make sure that the code you want to commit is now [Red].<br>
